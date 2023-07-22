@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *,
 *::before,
 *::after {
@@ -28,7 +29,7 @@ button{
     border: none;
 }
 .container{
-    max-width: 172.8rem;
+    max-width: 180rem;
     margin: 0 auto;
 }
 a{
@@ -36,4 +37,7 @@ a{
 }
 :root{
     --text-color: #D2D2D2;
+}
+.overflow{
+    overflow: hidden;
 }
