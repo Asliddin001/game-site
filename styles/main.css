@@ -1,2 +1,3 @@
-@import "./loyaouts/style.css";
+@import "/styles/style.css";
 @import "./loyaouts/_gamehub.css";
+@import "./home-page/navbar.css";
