@@ -41,3 +41,8 @@ a{
 .overflow{
     overflow: hidden;
 }
+.bacground{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
