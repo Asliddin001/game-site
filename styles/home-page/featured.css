@@ -1,0 +1,52 @@
+.featured {
+    margin-bottom: 5.5rem;
+}
+.featured h2 {
+    color: var(--text-color);
+    font-size: 3.7rem;
+    font-weight: 600;
+    font-family: "Montserrat" , sans-serif;
+    margin-bottom: 5.5rem;
+}
+
+.featured .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3.9rem;
+}
+
+.featured .cards .card {
+    width: 49.9rem;
+    height: 57.9rem;
+    padding: 2rem 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.featured .cards .card .img img {
+    width: 100%;
+}
+.featured .cards .card .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.featured .cards .card .text h3{
+    font-size: 3rem;
+    font-family: "Motserrat", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.featured .cards .card .text p{
+    color: rgba(176, 176, 176, 0.90);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Motserrat", sans-serif;
+}
+.featured .cards .card .text span{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Motserrat", sans-serif;
+}
