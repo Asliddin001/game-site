@@ -46,4 +46,8 @@ a{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
+}
+.absolute{
+    margin-left: -4rem;
 }

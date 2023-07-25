@@ -50,3 +50,8 @@
     font-weight: 700;
     font-family: "Motserrat", sans-serif;
 }
+
+text{
+    /* color: rgba(4, 0, 255, 0.193); */
+    color: rgba(128, 32, 96, 0.333);
+}

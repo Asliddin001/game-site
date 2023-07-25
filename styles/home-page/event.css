@@ -1,0 +1,116 @@
+.event {
+    width: 100%;
+}
+
+.event h4 {
+    font-size: 3.7rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    margin-bottom: 10.4rem;
+}
+
+.event .rocet {
+    border: solid green;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+}
+
+.event .rocet .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.event .rocet .content .text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.event .rocet .content .text h1 {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event .rocet .content .text p {
+    color: #B5B5B5;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4.2rem;
+}
+
+.event .rocet .content .icons {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10.9rem;
+    gap: 3.3rem;
+}
+
+.event .rocet .content .icons .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15.4rem;
+}
+
+.event .rocet .content .icons .top h2 span:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.event .rocet .content .icons .top span:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #B5B5B5;
+}
+
+.event .rocet .content .icons .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5.9rem;
+}
+
+.event .rocet .content .icons .bottom p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #B5B5B5;
+}
+
+.event .rocet .content .icons .bottom span {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FFCD1A;
+}
+
+.event .rocet .content .icons .bottom .child2 {
+    color: #93CBFF;
+}
+
+.event .rocet .content .register-button button {
+    width: 37.2rem;
+    height: 8rem;
+    color: #FFF;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.7rem;
+    border-radius: 15px;
+    background: linear-gradient(320deg, #2D53D9 0%, #46D84C 100%);
+}
